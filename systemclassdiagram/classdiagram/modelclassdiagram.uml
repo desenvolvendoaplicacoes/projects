@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AarGwJZTEeaS9_yNIp6g1Q" name="modelclassdiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mh1rEJZTEeaS9_yNIp6g1Q">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DAcZsJZUEeaS9_yNIp6g1Q" name="Login">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lXGg0JZUEeaS9_yNIp6g1Q" name="codUser">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_d06sUJZVEeaS9_yNIp6g1Q" name="codUser" value="0"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iXI6UJZVEeaS9_yNIp6g1Q" name="password">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_m-qfEJZVEeaS9_yNIp6g1Q" name="password" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_n_d0wJZVEeaS9_yNIp6g1Q" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tMf6UJZVEeaS9_yNIp6g1Q" name="name" value=""/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_D6zJIJZUEeaS9_yNIp6g1Q" name="About"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FSAMoJZUEeaS9_yNIp6g1Q" name="Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E_spwJZWEeaS9_yNIp6g1Q" name="code">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KMISYJZWEeaS9_yNIp6g1Q" name="code"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R9GUUJZWEeaS9_yNIp6g1Q" name="cpf">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_W49KUJZWEeaS9_yNIp6g1Q" name="cpf"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xf2yQJZWEeaS9_yNIp6g1Q" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_aWwt8JZWEeaS9_yNIp6g1Q" name="name"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hrz8oJZUEeaS9_yNIp6g1Q" name="Privilege">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cNdJ0JZWEeaS9_yNIp6g1Q" name="code">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_g7-HYJZWEeaS9_yNIp6g1Q" name="code"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eDPmwJZWEeaS9_yNIp6g1Q" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jtraAJZWEeaS9_yNIp6g1Q" name="name"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Jpd8IJZUEeaS9_yNIp6g1Q" name="Social_Network"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LumcoJZUEeaS9_yNIp6g1Q" name="Facebook_Profile">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_tsdpQJZUEeaS9_yNIp6g1Q" name="Facebook_Group">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_xy_ZwJZUEeaS9_yNIp6g1Q" name="Facebook_Page"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2s-ngJZUEeaS9_yNIp6g1Q" name="Google_Plus">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_2s-ngZZUEeaS9_yNIp6g1Q" name="Linkedin">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_2s-ngpZUEeaS9_yNIp6g1Q" name="Youtube"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7qRn8JZUEeaS9_yNIp6g1Q" name="Twitter">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_7qRn8ZZUEeaS9_yNIp6g1Q" name="Skype">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_7qRn8pZUEeaS9_yNIp6g1Q" name="Telegram"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EVOl4JZVEeaS9_yNIp6g1Q" name="Whatsapp">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_EVOl4ZZVEeaS9_yNIp6g1Q" name="Linkedin">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_EVOl4pZVEeaS9_yNIp6g1Q" name="Youtube"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Huzw0JZVEeaS9_yNIp6g1Q" name="Instagram">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_Huzw0ZZVEeaS9_yNIp6g1Q" name="Linkedin">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Huzw0pZVEeaS9_yNIp6g1Q" name="Youtube"/>
+    </nestedClassifier>
+  </packagedElement>
+</uml:Model>
